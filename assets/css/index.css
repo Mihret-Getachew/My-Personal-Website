@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.left-container {
+  width: 65%;
+  height: 100%;
+  background-color: pink;
+  padding: 10%;
+  padding-top: 15%;
+}
+.right-container {
+  width: 35%;
+  height: 100%;
+  background-color: black;
+}
+.left-header {
+  color: rgb(57, 7, 98);
+  font-size: 100px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+.left-description {
+  line-height: 1.5;
+  font-size: 20px;
+  width: 65%;
+  letter-spacing: 0.5px;
+}
+.left-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  margin-top: 10%;
+  gap: 20%;
+  font-size: 18px;
+}
